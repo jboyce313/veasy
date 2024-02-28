@@ -1,3 +1,11 @@
+import "../styles/Header.css";
+
 export function Header() {
-  return <h1>Veasy</h1>;
+  return (
+    <div className="header">
+      <h1 className="title">
+        <span>V</span>easy
+      </h1>
+    </div>
+  );
 }
