@@ -1,4 +1,11 @@
-export function Recipe({ recipe }) {
+import { useParams } from "react-router-dom";
+
+export function Recipe({ recipes }) {
+  const { id } = useParams();
+  console.log(recipes);
+  const recipe = recipes[id - 1];
+  console.log(recipe);
+
   return (
     <div className="recipe">
       <h3>{recipe.name}</h3>
