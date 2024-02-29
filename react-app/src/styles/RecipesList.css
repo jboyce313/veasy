@@ -1,0 +1,21 @@
+.recipesListContainer h2 {
+  text-align: center;
+  margin: 30px;
+  color: var(--darkGreen);
+}
+
+.recipesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.recipe {
+  margin: 20px;
+  color: var(--darkPurple);
+  width: 25%;
+}
+
+.recipe img {
+  width: 100%;
+}

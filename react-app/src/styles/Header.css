@@ -1,19 +1,19 @@
 .header {
   /* background-color: #7ce17c; */
-  background-color: rgb(249, 247, 238);
+  background-color: var(--cream);
   padding: 0px 20px;
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid var(--darkGreen);
   text-align: center;
 }
 
 .header h1 {
-  color: #5dce5d;
+  color: var(--lightGreen);
   font-size: 2em;
   font-weight: 100;
 }
 
 .header h1 span {
-  color: #ff49ff;
+  color: var(--lightPurple);
   margin-right: 5px;
   /* font-family: "Yellowtail", cursive;
    */

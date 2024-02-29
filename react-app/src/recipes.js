@@ -2,6 +2,7 @@ const recipes = [
   {
     id: 1,
     name: "Spaghetti Bolognese",
+    image: "../public/images/spaghetti.jpeg",
     regular: {
       ingredients: [
         "spaghetti",
@@ -34,6 +35,7 @@ const recipes = [
   {
     id: 2,
     name: "Vegetable Stir-Fry",
+    image: "../public/images/stirFry.jpeg",
     regular: {
       ingredients: [
         "mixed vegetables (bell peppers, broccoli, carrots, etc.)",
@@ -62,6 +64,7 @@ const recipes = [
   {
     id: 3,
     name: "Chocolate Chip Cookies",
+    image: "../public/images/cookies.jpeg",
     regular: {
       ingredients: [
         "flour",
@@ -94,6 +97,7 @@ const recipes = [
   {
     id: 4,
     name: "Caprese Salad",
+    image: "../public/images/salad.jpeg",
     regular: {
       ingredients: [
         "tomatoes",
@@ -124,6 +128,7 @@ const recipes = [
   {
     id: 5,
     name: "Chickpea Curry",
+    image: "../public/images/curry.jpeg",
     regular: {
       ingredients: [
         "chickpeas",

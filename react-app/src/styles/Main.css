@@ -1,6 +1,18 @@
+:root {
+  --cream: rgb(249, 247, 238);
+  --lightGreen: #5dce5d;
+  --darkGreen: green;
+  --lightPurple: #ff49ff;
+  --darkPurple: #d400d4;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
