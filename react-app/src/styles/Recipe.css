@@ -1,2 +1,17 @@
 .recipePage {
+  text-align: center;
+}
+
+.recipePage * {
+  margin: 10px;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  padding: 5px;
+}
+
+.highlighted {
+  border-bottom: 2px var(--lightPurple) solid;
 }

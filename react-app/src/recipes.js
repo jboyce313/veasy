@@ -14,8 +14,12 @@ const recipes = [
         "salt",
         "pepper",
       ],
-      instructions:
-        "Cook spaghetti according to package instructions. In a separate pan, sauté chopped onion and garlic in olive oil. Add ground beef and cook until browned. Stir in tomato sauce, salt, and pepper. Serve over cooked spaghetti.",
+      instructions: [
+        "1. Cook spaghetti according to package instructions.",
+        "2. In a separate pan, sauté chopped onion and garlic in olive oil.",
+        "3. Add ground beef and cook until browned.",
+        "4. Season with salt and pepper. Serve over cooked spaghetti.",
+      ],
     },
     vegan: {
       ingredients: [
@@ -28,8 +32,12 @@ const recipes = [
         "salt",
         "pepper",
       ],
-      instructions:
-        "Cook spaghetti according to package instructions. In a separate pan, sauté chopped onion and garlic in olive oil. Add cooked lentils and tomato sauce. Season with salt and pepper. Serve over cooked spaghetti.",
+      instructions: [
+        "1. Cook spaghetti according to package instructions.",
+        "2. In a separate pan, sauté chopped onion and garlic in olive oil.",
+        "3. Add cooked lentils and tomato sauce.",
+        "4. Season with salt and pepper. Serve over cooked spaghetti.",
+      ],
     },
   },
   {

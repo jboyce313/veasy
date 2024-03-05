@@ -13,8 +13,18 @@ export function Recipe({ recipes }) {
   return (
     <div className="recipePage">
       <h3>{recipe.name}</h3>
-      <button onClick={() => setVersion("regular")}>Regular</button>
-      <button onClick={() => setVersion("vegan")}>Vegan</button>
+      <button
+        onClick={() => setVersion("regular")}
+        className={version == "regular" ? "button highlighted" : "button"}
+      >
+        Regular
+      </button>
+      <button
+        onClick={() => setVersion("vegan")}
+        className={version == "vegan" ? "button highlighted" : "button"}
+      >
+        Vegan
+      </button>
 
       {version == "regular" ? (
         <Regular recipe={recipe} />
