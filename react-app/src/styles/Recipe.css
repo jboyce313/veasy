@@ -37,3 +37,27 @@
   padding: 5px;
   border-radius: 0 0 20px 20px;
 }
+
+@media only screen and (orientation: landscape) {
+  .recipePage {
+    margin-top: 50px;
+  }
+
+  .regular,
+  .vegan {
+    display: flex;
+  }
+
+  .ingredients {
+    width: 25%;
+    border-radius: 0 0 0 20px;
+  }
+
+  .instructions {
+    border-radius: 0 0 20px 0;
+  }
+
+  .recipePage * {
+    font-size: 1.5rem;
+  }
+}
