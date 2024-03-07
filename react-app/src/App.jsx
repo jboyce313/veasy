@@ -9,9 +9,12 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<RecipesList recipes={recipes} />}></Route>
         <Route
-          path="/recipes/:id"
+          path="/veasy/"
+          element={<RecipesList recipes={recipes} />}
+        ></Route>
+        <Route
+          path="/veasy/recipes/:id"
           element={<Recipe recipes={recipes} />}
         ></Route>
       </Routes>
