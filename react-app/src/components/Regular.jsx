@@ -1,3 +1,5 @@
+import { Instructions } from "./Instructions";
+
 export function Regular({ recipe }) {
   return (
     <div className="regular">
@@ -9,9 +11,7 @@ export function Regular({ recipe }) {
       </div>
       <div className="instructions">
         <h5>Instructions</h5>
-        {recipe.regular.instructions.map((instruction) => (
-          <p key={instruction}>{instruction}</p>
-        ))}
+        <Instructions instructions={recipe.regular.instructions} />
       </div>
     </div>
   );

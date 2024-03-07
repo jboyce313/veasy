@@ -15,10 +15,10 @@ const recipes = [
         "pepper",
       ],
       instructions: [
-        "1. Cook spaghetti according to package instructions.",
-        "2. In a separate pan, sauté chopped onion and garlic in olive oil.",
-        "3. Add ground beef and cook until browned.",
-        "4. Season with salt and pepper. Serve over cooked spaghetti.",
+        "Cook spaghetti according to package instructions.",
+        "In a separate pan, sauté chopped onion and garlic in olive oil.",
+        "Add ground beef and cook until browned.",
+        "Season with salt and pepper. Serve over cooked spaghetti.",
       ],
     },
     vegan: {
@@ -33,10 +33,10 @@ const recipes = [
         "pepper",
       ],
       instructions: [
-        "1. Cook spaghetti according to package instructions.",
-        "2. In a separate pan, sauté chopped onion and garlic in olive oil.",
-        "3. Add cooked lentils and tomato sauce.",
-        "4. Season with salt and pepper. Serve over cooked spaghetti.",
+        "Cook spaghetti according to package instructions.",
+        "In a separate pan, sauté chopped onion and garlic in olive oil.",
+        "Add cooked lentils and tomato sauce.",
+        "Season with salt and pepper. Serve over cooked spaghetti.",
       ],
     },
   },
@@ -53,8 +53,11 @@ const recipes = [
         "garlic",
         "sesame oil",
       ],
-      instructions:
-        "Stir-fry mixed vegetables, tofu, ginger, and garlic in sesame oil until vegetables are tender. Add soy sauce and cook for an additional minute. Serve hot.",
+      instructions: [
+        "Stir-fry mixed vegetables, tofu, ginger, and garlic in sesame oil until vegetables are tender.",
+        "Add soy sauce and cook for an additional minute.",
+        "Serve hot.",
+      ],
     },
     vegan: {
       ingredients: [
@@ -65,8 +68,11 @@ const recipes = [
         "garlic",
         "sesame oil",
       ],
-      instructions:
-        "Stir-fry mixed vegetables, tempeh, ginger, and garlic in sesame oil until vegetables are tender. Add soy sauce and cook for an additional minute. Serve hot.",
+      instructions: [
+        "Stir-fry mixed vegetables, tofu, ginger, and garlic in sesame oil until vegetables are tender.",
+        "Add soy sauce and cook for an additional minute.",
+        "Serve hot.",
+      ],
     },
   },
   {
@@ -84,8 +90,11 @@ const recipes = [
         "salt",
         "chocolate chips",
       ],
-      instructions:
-        "Preheat oven to 350°F (175°C). Cream together butter, sugar, and brown sugar. Beat in eggs and vanilla. Combine flour, baking soda, and salt; gradually add to creamed mixture. Stir in chocolate chips. Drop by tablespoonfuls onto ungreased baking sheets. Bake for 8 to 10 minutes or until golden brown. Cool on wire racks.",
+      instructions: [
+        "Stir-fry mixed vegetables, tofu, ginger, and garlic in sesame oil until vegetables are tender.",
+        "Add soy sauce and cook for an additional minute.",
+        "Serve hot.",
+      ],
     },
     vegan: {
       ingredients: [
@@ -98,8 +107,11 @@ const recipes = [
         "salt",
         "vegan chocolate chips",
       ],
-      instructions:
-        "Preheat oven to 350°F (175°C). Cream together vegan butter, sugar, and brown sugar. Beat in flax eggs and vanilla. Combine flour, baking soda, and salt; gradually add to creamed mixture. Stir in vegan chocolate chips. Drop by tablespoonfuls onto ungreased baking sheets. Bake for 8 to 10 minutes or until golden brown. Cool on wire racks.",
+      instructions: [
+        "Stir-fry mixed vegetables, tofu, ginger, and garlic in sesame oil until vegetables are tender.",
+        "Add soy sauce and cook for an additional minute.",
+        "Serve hot.",
+      ],
     },
   },
   {
@@ -116,8 +128,11 @@ const recipes = [
         "salt",
         "pepper",
       ],
-      instructions:
-        "Slice tomatoes and fresh mozzarella cheese. Arrange on a plate with fresh basil leaves. Drizzle with balsamic vinegar and olive oil. Season with salt and pepper to taste.",
+      instructions: [
+        "Stir-fry mixed vegetables, tofu, ginger, and garlic in sesame oil until vegetables are tender.",
+        "Add soy sauce and cook for an additional minute.",
+        "Serve hot.",
+      ],
     },
     vegan: {
       ingredients: [
@@ -129,8 +144,11 @@ const recipes = [
         "salt",
         "pepper",
       ],
-      instructions:
-        "Slice tomatoes and vegan mozzarella cheese. Arrange on a plate with fresh basil leaves. Drizzle with balsamic vinegar and olive oil. Season with salt and pepper to taste.",
+      instructions: [
+        "Stir-fry mixed vegetables, tofu, ginger, and garlic in sesame oil until vegetables are tender.",
+        "Add soy sauce and cook for an additional minute.",
+        "Serve hot.",
+      ],
     },
   },
   {
@@ -151,8 +169,11 @@ const recipes = [
         "salt",
         "pepper",
       ],
-      instructions:
-        "In a large pan, sauté chopped onion, garlic, and ginger until softened. Add curry powder, cumin, coriander, and turmeric; cook for 1 minute. Stir in chickpeas and coconut milk. Simmer for 10-15 minutes. Season with salt and pepper to taste. Serve hot over rice.",
+      instructions: [
+        "Stir-fry mixed vegetables, tofu, ginger, and garlic in sesame oil until vegetables are tender.",
+        "Add soy sauce and cook for an additional minute.",
+        "Serve hot.",
+      ],
     },
     vegan: {
       ingredients: [
@@ -168,8 +189,11 @@ const recipes = [
         "salt",
         "pepper",
       ],
-      instructions:
-        "In a large pan, sauté chopped onion, garlic, and ginger until softened. Add curry powder, cumin, coriander, and turmeric; cook for 1 minute. Stir in chickpeas and coconut milk. Simmer for 10-15 minutes. Season with salt and pepper to taste. Serve hot over rice.",
+      instructions: [
+        "Stir-fry mixed vegetables, tofu, ginger, and garlic in sesame oil until vegetables are tender.",
+        "Add soy sauce and cook for an additional minute.",
+        "Serve hot.",
+      ],
     },
   },
 ];

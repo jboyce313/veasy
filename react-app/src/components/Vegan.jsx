@@ -1,3 +1,5 @@
+import { Instructions } from "./Instructions";
+
 export function Vegan({ recipe }) {
   return (
     <div className="vegan">
@@ -9,9 +11,7 @@ export function Vegan({ recipe }) {
       </div>
       <div className="instructions">
         <h5>Instructions</h5>
-        {recipe.vegan.instructions.map((instruction) => (
-          <p key={instruction}>{instruction}</p>
-        ))}
+        <Instructions instructions={recipe.vegan.instructions} />
       </div>
     </div>
   );

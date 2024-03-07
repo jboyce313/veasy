@@ -1,0 +1,14 @@
+.instruction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+}
+
+.words {
+  width: 80%;
+  text-align: start;
+}
