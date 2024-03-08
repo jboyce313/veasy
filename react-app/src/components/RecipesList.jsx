@@ -13,7 +13,9 @@ export function RecipesList({ recipes }) {
             key={recipe.id}
           >
             <h3>{recipe.name}</h3>
-            <img src={recipe.image} alt={recipe.image} />
+            <div className="imageContainer">
+              <img src={recipe.image} alt={recipe.image} />
+            </div>
           </Link>
         ))}
       </div>
