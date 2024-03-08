@@ -2,7 +2,7 @@ const recipes = [
   {
     id: 1,
     name: "Spaghetti Bolognese",
-    time: "30 min",
+    time: "30min",
     difficulty: "Easy",
     image: "/veasy/images/spaghetti.jpeg",
     regular: {
@@ -46,7 +46,7 @@ const recipes = [
     id: 2,
     name: "Vegetable Stir-Fry",
     image: "/veasy/images/stirFry.jpeg",
-    time: "40 min",
+    time: "40min",
     difficulty: "Easy",
     regular: {
       ingredients: [
@@ -83,7 +83,7 @@ const recipes = [
     id: 3,
     name: "Chocolate Chip Cookies",
     image: "/veasy/images/cookies.jpeg",
-    time: "15 min",
+    time: "15min",
     difficulty: "Easy",
     regular: {
       ingredients: [
@@ -124,7 +124,7 @@ const recipes = [
     id: 4,
     name: "Caprese Salad",
     image: "/veasy/images/salad.jpeg",
-    time: "20 min",
+    time: "20min",
     difficulty: "Easy",
     regular: {
       ingredients: [
@@ -163,7 +163,7 @@ const recipes = [
     id: 5,
     name: "Chickpea Curry",
     image: "/veasy/images/curry.jpeg",
-    time: "60 min",
+    time: "60min",
     difficulty: "Intermediate",
     regular: {
       ingredients: [

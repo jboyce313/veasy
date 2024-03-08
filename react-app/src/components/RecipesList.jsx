@@ -21,6 +21,7 @@ export function RecipesList({ recipes }) {
               <p>{recipe.difficulty}</p>
               <div className="time">
                 <CiTimer />
+                {/* <p className="dot">.</p> */}
                 <p>{recipe.time}</p>
               </div>
             </div>

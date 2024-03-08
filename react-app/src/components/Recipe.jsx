@@ -3,6 +3,7 @@ import { useState } from "react";
 import "../styles/Recipe.css";
 import { Regular } from "./Regular";
 import { Vegan } from "./Vegan";
+import { CiTimer } from "react-icons/ci";
 
 export function Recipe({ recipes }) {
   const { id } = useParams();
@@ -13,7 +14,17 @@ export function Recipe({ recipes }) {
   return (
     <div className="recipeContainer">
       <div className="recipePage">
-        <h3>{recipe.name}</h3>
+        <div className="info">
+          <div>
+            <p>{recipe.difficulty}</p>
+          </div>
+          <div className="infoTime">
+            <CiTimer />
+            <p>{recipe.time}</p>
+          </div>
+        </div>
+
+        <h3 className="recipeName">{recipe.name}</h3>
 
         <div className="buttons">
           <button
