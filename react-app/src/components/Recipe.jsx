@@ -11,26 +11,35 @@ export function Recipe({ recipes }) {
   const [version, setVersion] = useState("regular");
 
   return (
-    <div className="recipePage">
-      <h3>{recipe.name}</h3>
-      <button
-        onClick={() => setVersion("regular")}
-        className={version == "regular" ? "button highlighted" : "button"}
-      >
-        Regular
-      </button>
-      <button
-        onClick={() => setVersion("vegan")}
-        className={version == "vegan" ? "button highlighted" : "button"}
-      >
-        Vegan
-      </button>
+    <div className="recipeContainer">
+      <div className="recipePage">
+        <h3>{recipe.name}</h3>
 
-      {version == "regular" ? (
-        <Regular recipe={recipe} />
-      ) : (
-        <Vegan recipe={recipe} />
-      )}
+        <div className="buttons">
+          <button
+            onClick={() => setVersion("regular")}
+            className={version == "regular" ? "button highlighted" : "button"}
+          >
+            Regular
+          </button>
+          <button
+            onClick={() => setVersion("vegan")}
+            className={version == "vegan" ? "button highlighted" : "button"}
+          >
+            Vegan
+          </button>
+        </div>
+
+        <div className="imageContainer">
+          <img src={recipe.image} alt={recipe.name} className="foodPic"></img>
+        </div>
+
+        {version == "regular" ? (
+          <Regular recipe={recipe} />
+        ) : (
+          <Vegan recipe={recipe} />
+        )}
+      </div>
     </div>
   );
 }
