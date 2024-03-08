@@ -28,10 +28,12 @@
 .recipePage h5,
 .recipePage p {
   margin: 10px 0px;
+  color: var(--darkPurple);
 }
 
 .recipePage h3 {
   margin: 5px 0 5px 0;
+  color: var(--darkPurple);
 }
 
 .buttons {

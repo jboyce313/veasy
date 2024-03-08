@@ -2,8 +2,10 @@
   --cream: rgb(249, 247, 238);
   --lightGreen: #5dce5d;
   --darkGreen: green;
-  --lightPurple: #ff49ff;
-  --darkPurple: #d400d4;
+  --lightPurple: hsl(300, 100%, 64%);
+  /* --darkPurple: #d400d4; */
+  --darkPurple: #ac00ac;
+
   --logo: rgb(204 255 194);
 }
 
