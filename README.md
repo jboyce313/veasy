@@ -1,4 +1,4 @@
-# veasy
+# Veasy
 
 A React app that shows both regular and vegan versions of recipes. Perfect for households with mixed dietary needs.
 
